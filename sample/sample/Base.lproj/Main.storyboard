@@ -650,17 +650,17 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <menu id="9Gd-Jz-FXE">
                     <items>
-                        <menuItem title="Item 1" id="rQO-Eu-bx0">
+                        <menuItem title="リンク無し" id="rQO-Eu-bx0">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Item 2" id="yJf-7V-ufm">
+                        <menuItem title="リンク無し" id="yJf-7V-ufm">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Item 3" id="NQK-li-6YM">
+                        <menuItem title="リンク無し" id="NQK-li-6YM">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="TWu-Qw-hiz"/>
-                        <menuItem title="Item" id="Ozl-H0-g5B">
+                        <menuItem title="レイアウト2" id="Ozl-H0-g5B">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
                                 <segue destination="t4F-Rg-DHz" kind="show" id="Cvq-Ft-Ogw"/>
@@ -675,7 +675,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Windowを選択してタイトルを指定可" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
@@ -692,7 +692,7 @@
         <scene sceneID="HBp-by-c3Y">
             <objects>
                 <windowController id="t4F-Rg-DHz" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="wmM-sz-Rwh">
+                    <window key="window" title="パーツのサイズを可変に設定" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="wmM-sz-Rwh">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <rect key="contentRect" x="245" y="301" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
@@ -709,11 +709,11 @@
         <scene sceneID="8MT-qU-opn">
             <objects>
                 <viewController id="Lvz-33-rLK" sceneMemberID="viewController">
-                    <view key="view" id="YZz-Gh-MwK">
+                    <view key="view" misplaced="YES" id="YZz-Gh-MwK">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="woh-Iz-jSW">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="woh-Iz-jSW">
                                 <rect key="frame" x="-2" y="226" width="484" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="FE8-wn-uRi"/>
@@ -724,19 +724,19 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7uq-7k-rSP">
+                            <popUpButton verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7uq-7k-rSP">
                                 <rect key="frame" x="203" y="122" width="76" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="IZ6-TK-jdi"/>
                                 </constraints>
-                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Eme-hf-2wB" id="JRF-EH-VRb">
+                                <popUpButtonCell key="cell" type="push" title="Xcode6" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="0az-Tg-gSp" id="JRF-EH-VRb">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
                                     <menu key="menu" id="Fwz-az-xvG">
                                         <items>
-                                            <menuItem title="Item 1" state="on" id="Eme-hf-2wB"/>
-                                            <menuItem title="Item 2" id="o3D-A2-N3V"/>
-                                            <menuItem title="Item 3" id="0az-Tg-gSp"/>
+                                            <menuItem title="Xcode8" id="Eme-hf-2wB"/>
+                                            <menuItem title="Xcode7" id="o3D-A2-N3V"/>
+                                            <menuItem title="Xcode6" state="on" id="0az-Tg-gSp"/>
                                         </items>
                                     </menu>
                                 </popUpButtonCell>
@@ -782,14 +782,14 @@
                                     <constraint firstAttribute="height" constant="21" id="WF3-D5-YCy"/>
                                     <constraint firstAttribute="width" constant="71" id="ht5-Du-dyD"/>
                                 </constraints>
-                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="OlH-Bx-n1s" id="tmW-Im-J3b">
+                                <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="tmW-Im-J3b">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
                                     <menu key="menu" id="Oaf-6q-5iZ">
                                         <items>
-                                            <menuItem title="Item 1" state="on" id="OlH-Bx-n1s"/>
-                                            <menuItem title="Item 2" id="pVB-mo-Ki6"/>
-                                            <menuItem title="Item 3" id="9ed-O0-1JZ"/>
+                                            <menuItem title="iOS" id="OlH-Bx-n1s"/>
+                                            <menuItem title="macOS" id="pVB-mo-Ki6"/>
+                                            <menuItem title="watchOS" id="9ed-O0-1JZ"/>
                                         </items>
                                     </menu>
                                 </popUpButtonCell>
